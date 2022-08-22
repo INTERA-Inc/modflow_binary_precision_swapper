@@ -21,6 +21,7 @@ def swap_precision(org_filename,org_precision,new_filename,new_precision,echo=Fa
 	Note:
 		This function relies on the org_filename extension to determine the file type
 			(".hds" = head-save, ".ucn" = concentration)
+		This function does not yet support modflow-6 gwt ucn files...easy to do tho
 
 	Example:
 
